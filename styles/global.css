@@ -23,6 +23,8 @@
     --brand-color-primary: #f7b733;
     --brand-color-secondary: #FC4A1A;
 
+    --max-width: 375px;
+
     --ff-sans: 'Inter', system-ui, sans-serif;
 
     --fw-base: 400;
@@ -53,7 +55,7 @@ html {
 h1, h2, h3 {
     line-height: 1.2;
     /* color: var(--text-color-primary); */
-    color: black;
+    color: white;
     font-weight: var(--fw-bold);
     letter-spacing: -0.04em;
 }

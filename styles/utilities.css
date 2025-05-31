@@ -1,8 +1,8 @@
 .container {
     --max-width: 375px;
     width: min(var(--max-width), 100% - var(--px-lg)*2);
-    border: solid violet;
     margin-inline: auto;
+    /* border: 2px solid violet; */
 }
 
 .py-base {
@@ -30,17 +30,33 @@
 .flex{
     display: flex;
 }
+
+.items-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
 .gap-1{
     gap: 1rem;
 }
+
+.gap-1\.5{
+    gap: 1.5rem;
+}
+
 .grid{
     display: grid;
 }
 
 @media (width >= 80em){
-    :root{
+    
+    .container {
         --max-width: 80rem;
     }
+
     .desktop-only{
         display: initial;
     }
